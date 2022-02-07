@@ -14,6 +14,7 @@ public class Member {
         private String city;
         private String street;
         private String zipcode;
+        private String adress;
 
         @OneToMany(mappedBy = "member")
         private List<Order> orders = new ArrayList<>();

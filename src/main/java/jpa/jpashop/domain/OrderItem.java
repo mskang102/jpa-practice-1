@@ -17,6 +17,8 @@ public class OrderItem {
     @JoinColumn(name = "ITEM_ID")
     private Item item;
 
+    private String rmk;
+
     private int orderPrice;
 
     private int count;
